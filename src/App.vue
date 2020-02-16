@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <el-container>
-            <el-header>
+            <el-header height="65px">
                 <Header></Header>
             </el-header>
             <el-main>
@@ -27,12 +27,20 @@
     }
 </script>
 
-<style>
+<style lang="scss" scoped>
     #app {
         font-family: Avenir, Helvetica, Arial, sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         text-align: center;
         color: #2c3e50;
+    }
+
+    header {
+        border-bottom: 1px solid #ddd;
+    }
+
+    main {
+        min-height: calc(100vh - 125px);
     }
 </style>
