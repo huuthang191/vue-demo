@@ -1,4 +1,4 @@
-# imomi-demo
+# vue-demo
 
 ## Project setup
 ```
