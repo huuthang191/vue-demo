@@ -1,7 +1,7 @@
 <template>
     <el-row class="wrapper" justify="between" align="center">
         <el-col :md="2" :xs="12" class="logo">
-            <img src="https://imomi-buyer-dev.azurewebsites.net/images/imomi-logo-gradient-horizontal.svg" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/277px-Vue.js_Logo_2.svg.png" alt="">
         </el-col>
         <el-col :md="8" :xs="12" class="search-box">
             <el-input placeholder="Search anything (project, street, area etc.)"
